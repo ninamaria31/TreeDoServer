@@ -1,6 +1,7 @@
 # TreeDo Server
 
 This is the server for the TreeDo app. It is built using Python and Flask. It uses PostgreSQL as the database.
+The corresponding TreeDo Repository can be found [here](https://github.com/ninamaria31/TreeDoList).
 
 ## Installation
 
@@ -15,7 +16,7 @@ This is the server for the TreeDo app. It is built using Python and Flask. It us
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone <https://github.com/ninamaria31/TreeDoList.git>
     ```
 
 2. Navigate to the project directory:
@@ -52,12 +53,3 @@ To start the server, run:
 ```bash
 python3 app.py
 ```
-
-## Troubleshooting Mac Postgres
-
-```bash
-$ brew services stop postgresql
-# adjust path accordingly to your install, e.g. `/opt/homebrew/var/postgres/postmaster.pid`
-$ rm /usr/local/var/postgres/postmaster.pid 
-$ brew services start postgresql
-```# TreeDoServer
